@@ -1,0 +1,6 @@
+framework module Pods_desafio_ios_dorenalto_coutoTests {
+  umbrella header "Pods-desafio-ios-dorenalto-coutoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

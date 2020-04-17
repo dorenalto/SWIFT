@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeroesListView" customModule="Marvel" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="vdX-MS-qEH" id="RZI-em-fSg"/>
+                <outlet property="tableView" destination="O7U-0F-xbQ" id="XgN-4j-9F4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="O7U-0F-xbQ" customClass="MarvelTableView" customModule="Marvel" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="76" width="375" height="591"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="vdX-MS-qEH">
+                    <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="O7U-0F-xbQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="19J-3P-LOl"/>
+                <constraint firstItem="vdX-MS-qEH" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="9xd-G0-Hvs"/>
+                <constraint firstItem="O7U-0F-xbQ" firstAttribute="top" secondItem="vdX-MS-qEH" secondAttribute="bottom" id="ArL-bG-9uQ"/>
+                <constraint firstItem="O7U-0F-xbQ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Mig-n8-ZFf"/>
+                <constraint firstItem="O7U-0F-xbQ" firstAttribute="top" secondItem="vdX-MS-qEH" secondAttribute="bottom" id="Niq-9g-naA"/>
+                <constraint firstItem="vdX-MS-qEH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="bBu-IH-vwA"/>
+                <constraint firstItem="O7U-0F-xbQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gpC-ob-VTI"/>
+                <constraint firstItem="vdX-MS-qEH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="i5v-Uo-XNY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8A9C6D588309A0A3BAC90648959D3F /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE221A5F012608A56F5FED711830C98 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-dummy.m */; };
+		0DB2C9AA1A1CDE2758FA086D20D2BF70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		250959B8A146CE7313F9F6DB9E096BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		26FFD3B6D48E7D18B1C0923B5E50A471 /* Pods-desafio-ios-dorenalto-couto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D38C14CACD63545C08A0F9AD4B28A7F6 /* Pods-desafio-ios-dorenalto-couto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8D752F334239465399DC342CBAA39D /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1A4AB26564A8D3FEA56B0D7D0A79FF /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B08022572147AC82B8579B8E27EC634E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B847B756EE28A811A9215BC42138FB87 /* Pods-desafio-ios-dorenalto-coutoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B60AE1E28B2B6865DD7BB1716E7F2FD /* Pods-desafio-ios-dorenalto-coutoTests-dummy.m */; };
+		C00AB54CA88EB99F629A80FA624F1A12 /* Pods-desafio-ios-dorenalto-couto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E669EBD71C5706DFA86B23BA1FB80084 /* Pods-desafio-ios-dorenalto-couto-dummy.m */; };
+		D2C69C5F7707429526BE46F5D0593BD0 /* Pods-desafio-ios-dorenalto-coutoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEC91B59EC14905B86558D487B3066E /* Pods-desafio-ios-dorenalto-coutoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE5B779D4C8255051797C5FF0BB6403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4908618AC9D7CB825068571756244A4;
+			remoteInfo = "Pods-desafio-ios-dorenalto-couto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FC22B5CF8C5C16E5880205813B7F57 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.modulemap"; sourceTree = "<group>"; };
+		17D16CC574EA8A16AEA7F4EB097F2456 /* Pods-desafio-ios-dorenalto-couto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-desafio-ios-dorenalto-couto-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CD619365EC27C42B0D20B16E953E706 /* Pods-desafio-ios-dorenalto-couto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-dorenalto-couto.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36F4AB4CB33033C9C25D77985CCC56C4 /* Pods-desafio-ios-dorenalto-coutoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-dorenalto-coutoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A0DF0A3676BECB3BF724340781F4813 /* Pods_desafio_ios_dorenalto_couto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_desafio_ios_dorenalto_couto.framework; path = "Pods-desafio-ios-dorenalto-couto.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B60AE1E28B2B6865DD7BB1716E7F2FD /* Pods-desafio-ios-dorenalto-coutoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-desafio-ios-dorenalto-coutoTests-dummy.m"; sourceTree = "<group>"; };
+		45870731158A7C653B76ABDA9EA47A49 /* Pods-desafio-ios-dorenalto-couto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-dorenalto-couto-Info.plist"; sourceTree = "<group>"; };
+		499916C95A0B2E1762A192C433909CEE /* Pods-desafio-ios-dorenalto-coutoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-dorenalto-coutoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63C8CE4962456734AB37540F39C3D960 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-Info.plist"; sourceTree = "<group>"; };
+		654375DEF07C09D43B54A15BB3D40F01 /* Pods-desafio-ios-dorenalto-coutoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-desafio-ios-dorenalto-coutoTests.modulemap"; sourceTree = "<group>"; };
+		65B2ADEABECDD975D85C009A10426DCA /* Pods-desafio-ios-dorenalto-coutoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-dorenalto-coutoTests-Info.plist"; sourceTree = "<group>"; };
+		7145DF20F49971A0CAA92C3CE36E9C77 /* Pods-desafio-ios-dorenalto-coutoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-dorenalto-coutoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87FF1F3D6796BFE4DC09F68419676728 /* Pods_desafio_ios_dorenalto_coutoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_desafio_ios_dorenalto_coutoTests.framework; path = "Pods-desafio-ios-dorenalto-coutoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		887F032E6F6BCEC6D8E3BF8296F17B0B /* Pods-desafio-ios-dorenalto-coutoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-desafio-ios-dorenalto-coutoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90C86856ABCBE63029CEAC22910BE243 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0FFE983263E1EFB2FE1A77AAD6975A6 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2565B66EBDAD1D7EA5408C2D0AAA6A2 /* Pods-desafio-ios-dorenalto-couto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-dorenalto-couto.release.xcconfig"; sourceTree = "<group>"; };
+		A958B5782672D9EA7ED7D70F73A6F4E2 /* Pods-desafio-ios-dorenalto-couto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-desafio-ios-dorenalto-couto-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB1A4AB26564A8D3FEA56B0D7D0A79FF /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-umbrella.h"; sourceTree = "<group>"; };
+		ABEC91B59EC14905B86558D487B3066E /* Pods-desafio-ios-dorenalto-coutoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-desafio-ios-dorenalto-coutoTests-umbrella.h"; sourceTree = "<group>"; };
+		B97AA584979BEC55A8624E2C867A7958 /* Pods_desafio_ios_dorenalto_couto_desafio_ios_dorenalto_coutoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_desafio_ios_dorenalto_couto_desafio_ios_dorenalto_coutoUITests.framework; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAFDA29F7F6E6F402403DD0128397C4 /* Pods-desafio-ios-dorenalto-couto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-desafio-ios-dorenalto-couto.modulemap"; sourceTree = "<group>"; };
+		D38C14CACD63545C08A0F9AD4B28A7F6 /* Pods-desafio-ios-dorenalto-couto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-desafio-ios-dorenalto-couto-umbrella.h"; sourceTree = "<group>"; };
+		D63E9C9B1A8C27A7A99C878426001E0B /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE7D2AD00493932391792AFEFCBFA82D /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E669EBD71C5706DFA86B23BA1FB80084 /* Pods-desafio-ios-dorenalto-couto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-desafio-ios-dorenalto-couto-dummy.m"; sourceTree = "<group>"; };
+		EBE221A5F012608A56F5FED711830C98 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224512227D7249E5C44AE17245B35664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB2C9AA1A1CDE2758FA086D20D2BF70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD75609C2BC492A4410AB950A2FEA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08022572147AC82B8579B8E27EC634E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71207768D93ADBABB87440A4DC9F1F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250959B8A146CE7313F9F6DB9E096BC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4BCDC12879210355D577B68B238883 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E730EABFB233A554ECF6D215F5EF80 /* Pods-desafio-ios-dorenalto-couto */,
+				8AEB60775FB8228ABE6F4C04E1E6E474 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests */,
+				6E568641C508D20B8C1A21E5CF3B7BB5 /* Pods-desafio-ios-dorenalto-coutoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		25E730EABFB233A554ECF6D215F5EF80 /* Pods-desafio-ios-dorenalto-couto */ = {
+			isa = PBXGroup;
+			children = (
+				BDAFDA29F7F6E6F402403DD0128397C4 /* Pods-desafio-ios-dorenalto-couto.modulemap */,
+				17D16CC574EA8A16AEA7F4EB097F2456 /* Pods-desafio-ios-dorenalto-couto-acknowledgements.markdown */,
+				A958B5782672D9EA7ED7D70F73A6F4E2 /* Pods-desafio-ios-dorenalto-couto-acknowledgements.plist */,
+				E669EBD71C5706DFA86B23BA1FB80084 /* Pods-desafio-ios-dorenalto-couto-dummy.m */,
+				45870731158A7C653B76ABDA9EA47A49 /* Pods-desafio-ios-dorenalto-couto-Info.plist */,
+				D38C14CACD63545C08A0F9AD4B28A7F6 /* Pods-desafio-ios-dorenalto-couto-umbrella.h */,
+				1CD619365EC27C42B0D20B16E953E706 /* Pods-desafio-ios-dorenalto-couto.debug.xcconfig */,
+				A2565B66EBDAD1D7EA5408C2D0AAA6A2 /* Pods-desafio-ios-dorenalto-couto.release.xcconfig */,
+			);
+			name = "Pods-desafio-ios-dorenalto-couto";
+			path = "Target Support Files/Pods-desafio-ios-dorenalto-couto";
+			sourceTree = "<group>";
+		};
+		6E568641C508D20B8C1A21E5CF3B7BB5 /* Pods-desafio-ios-dorenalto-coutoTests */ = {
+			isa = PBXGroup;
+			children = (
+				654375DEF07C09D43B54A15BB3D40F01 /* Pods-desafio-ios-dorenalto-coutoTests.modulemap */,
+				887F032E6F6BCEC6D8E3BF8296F17B0B /* Pods-desafio-ios-dorenalto-coutoTests-acknowledgements.markdown */,
+				499916C95A0B2E1762A192C433909CEE /* Pods-desafio-ios-dorenalto-coutoTests-acknowledgements.plist */,
+				3B60AE1E28B2B6865DD7BB1716E7F2FD /* Pods-desafio-ios-dorenalto-coutoTests-dummy.m */,
+				65B2ADEABECDD975D85C009A10426DCA /* Pods-desafio-ios-dorenalto-coutoTests-Info.plist */,
+				ABEC91B59EC14905B86558D487B3066E /* Pods-desafio-ios-dorenalto-coutoTests-umbrella.h */,
+				7145DF20F49971A0CAA92C3CE36E9C77 /* Pods-desafio-ios-dorenalto-coutoTests.debug.xcconfig */,
+				36F4AB4CB33033C9C25D77985CCC56C4 /* Pods-desafio-ios-dorenalto-coutoTests.release.xcconfig */,
+			);
+			name = "Pods-desafio-ios-dorenalto-coutoTests";
+			path = "Target Support Files/Pods-desafio-ios-dorenalto-coutoTests";
+			sourceTree = "<group>";
+		};
+		8AEB60775FB8228ABE6F4C04E1E6E474 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11FC22B5CF8C5C16E5880205813B7F57 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.modulemap */,
+				A0FFE983263E1EFB2FE1A77AAD6975A6 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-acknowledgements.markdown */,
+				90C86856ABCBE63029CEAC22910BE243 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-acknowledgements.plist */,
+				EBE221A5F012608A56F5FED711830C98 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-dummy.m */,
+				63C8CE4962456734AB37540F39C3D960 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-Info.plist */,
+				AB1A4AB26564A8D3FEA56B0D7D0A79FF /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-umbrella.h */,
+				DE7D2AD00493932391792AFEFCBFA82D /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.debug.xcconfig */,
+				D63E9C9B1A8C27A7A99C878426001E0B /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.release.xcconfig */,
+			);
+			name = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests";
+			path = "Target Support Files/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests";
+			sourceTree = "<group>";
+		};
+		B7852649CC1B7EAD08AB28A6ABDDB3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A0DF0A3676BECB3BF724340781F4813 /* Pods_desafio_ios_dorenalto_couto.framework */,
+				B97AA584979BEC55A8624E2C867A7958 /* Pods_desafio_ios_dorenalto_couto_desafio_ios_dorenalto_coutoUITests.framework */,
+				87FF1F3D6796BFE4DC09F68419676728 /* Pods_desafio_ios_dorenalto_coutoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B7852649CC1B7EAD08AB28A6ABDDB3AF /* Products */,
+				1A4BCDC12879210355D577B68B238883 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94BCA5B6702EAC1ECDEE699A7BC83AD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FFD3B6D48E7D18B1C0923B5E50A471 /* Pods-desafio-ios-dorenalto-couto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D220CC0F8C5F5BDF57677487D0942FF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C69C5F7707429526BE46F5D0593BD0 /* Pods-desafio-ios-dorenalto-coutoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF378EF9558A04F4237C12886A822642 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D752F334239465399DC342CBAA39D /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		98DE9FDCC5E3B07D61918DCBECE14CC5 /* Pods-desafio-ios-dorenalto-coutoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4637D83482D172ACCCA631D4F632B61 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-dorenalto-coutoTests" */;
+			buildPhases = (
+				D220CC0F8C5F5BDF57677487D0942FF5 /* Headers */,
+				20CB78CC8B680538315B611F6BE505F3 /* Sources */,
+				2DD75609C2BC492A4410AB950A2FEA0D /* Frameworks */,
+				127BD559FEBBF2D35343D057E18186DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550621A5C2F67EC0485D84880E818CEB /* PBXTargetDependency */,
+			);
+			name = "Pods-desafio-ios-dorenalto-coutoTests";
+			productName = "Pods-desafio-ios-dorenalto-coutoTests";
+			productReference = 87FF1F3D6796BFE4DC09F68419676728 /* Pods_desafio_ios_dorenalto_coutoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4908618AC9D7CB825068571756244A4 /* Pods-desafio-ios-dorenalto-couto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DF018CED7C49CE94618D656EA1F4DD /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-dorenalto-couto" */;
+			buildPhases = (
+				94BCA5B6702EAC1ECDEE699A7BC83AD7 /* Headers */,
+				B7CF8D7622761D2E4DD6FD68B5AD78E3 /* Sources */,
+				71207768D93ADBABB87440A4DC9F1F4F /* Frameworks */,
+				DD59C79E744F8E13DF6380FAE65A9CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-desafio-ios-dorenalto-couto";
+			productName = "Pods-desafio-ios-dorenalto-couto";
+			productReference = 3A0DF0A3676BECB3BF724340781F4813 /* Pods_desafio_ios_dorenalto_couto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA8E165A6A5F5B8AEB038A2C1FB8F6E0 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029D165CFFC809F4039EBEE0821AC124 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests" */;
+			buildPhases = (
+				EF378EF9558A04F4237C12886A822642 /* Headers */,
+				D4B0ACF76556C8BA8AD612474F568301 /* Sources */,
+				224512227D7249E5C44AE17245B35664 /* Frameworks */,
+				7524B35CAF098B14C23755F7D3FFE687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests";
+			productName = "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests";
+			productReference = B97AA584979BEC55A8624E2C867A7958 /* Pods_desafio_ios_dorenalto_couto_desafio_ios_dorenalto_coutoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B7852649CC1B7EAD08AB28A6ABDDB3AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4908618AC9D7CB825068571756244A4 /* Pods-desafio-ios-dorenalto-couto */,
+				DA8E165A6A5F5B8AEB038A2C1FB8F6E0 /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests */,
+				98DE9FDCC5E3B07D61918DCBECE14CC5 /* Pods-desafio-ios-dorenalto-coutoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		127BD559FEBBF2D35343D057E18186DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7524B35CAF098B14C23755F7D3FFE687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59C79E744F8E13DF6380FAE65A9CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20CB78CC8B680538315B611F6BE505F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B847B756EE28A811A9215BC42138FB87 /* Pods-desafio-ios-dorenalto-coutoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CF8D7622761D2E4DD6FD68B5AD78E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00AB54CA88EB99F629A80FA624F1A12 /* Pods-desafio-ios-dorenalto-couto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0ACF76556C8BA8AD612474F568301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8A9C6D588309A0A3BAC90648959D3F /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550621A5C2F67EC0485D84880E818CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-desafio-ios-dorenalto-couto";
+			target = A4908618AC9D7CB825068571756244A4 /* Pods-desafio-ios-dorenalto-couto */;
+			targetProxy = 8CE5B779D4C8255051797C5FF0BB6403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		311CB160CEBBAB0D2D8919CCFD730422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63E9C9B1A8C27A7A99C878426001E0B /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53F4F6FE86357114E1A317A631D026D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7D2AD00493932391792AFEFCBFA82D /* Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests/Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97BF8A3241C09B957D2CD57E31651902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2565B66EBDAD1D7EA5408C2D0AAA6A2 /* Pods-desafio-ios-dorenalto-couto.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto/Pods-desafio-ios-dorenalto-couto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto/Pods-desafio-ios-dorenalto-couto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B754B98EF1FD79CDDC2D8DF5B774D871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD619365EC27C42B0D20B16E953E706 /* Pods-desafio-ios-dorenalto-couto.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto/Pods-desafio-ios-dorenalto-couto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-couto/Pods-desafio-ios-dorenalto-couto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C170291588FAB4290E5FFC8819199FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F4AB4CB33033C9C25D77985CCC56C4 /* Pods-desafio-ios-dorenalto-coutoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-coutoTests/Pods-desafio-ios-dorenalto-coutoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-coutoTests/Pods-desafio-ios-dorenalto-coutoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED3A59B7AA52073DEF374FFF66CD1FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7145DF20F49971A0CAA92C3CE36E9C77 /* Pods-desafio-ios-dorenalto-coutoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-coutoTests/Pods-desafio-ios-dorenalto-coutoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-desafio-ios-dorenalto-coutoTests/Pods-desafio-ios-dorenalto-coutoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029D165CFFC809F4039EBEE0821AC124 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-dorenalto-couto-desafio-ios-dorenalto-coutoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F4F6FE86357114E1A317A631D026D7 /* Debug */,
+				311CB160CEBBAB0D2D8919CCFD730422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DF018CED7C49CE94618D656EA1F4DD /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-dorenalto-couto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B754B98EF1FD79CDDC2D8DF5B774D871 /* Debug */,
+				97BF8A3241C09B957D2CD57E31651902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4637D83482D172ACCCA631D4F632B61 /* Build configuration list for PBXNativeTarget "Pods-desafio-ios-dorenalto-coutoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3A59B7AA52073DEF374FFF66CD1FD0 /* Debug */,
+				C170291588FAB4290E5FFC8819199FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

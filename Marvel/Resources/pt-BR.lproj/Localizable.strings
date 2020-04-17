@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Marvel
+
+  Created by Bruno Henrique Costa Ramos on 11/01/19.
+  Copyright © 2019 Bruno Ramos. All rights reserved.
+*/
+
+//Heroes List
+"HeroesList.screen.title" = "Super Heróis";
+"HeroesList.searchbar.placeholder" = "Buscar por nome";
+
+//Heroes Detail
+"HeroesDetail.section.title.comics" = "HQs";
+"HeroesDetail.section.title.events" = "Eventos";
+"HeroesDetail.section.title.stories" = "Histórias";
+"HeroesDetail.section.title.Series" = "Séries";
+"HeroesDetail.section.description.noContent" = "Esse super herói não possui";
+"HeroesDetail.submitButton.title" = "FINALIZAR";
+
+//Error
+"Alert.error.default.title" = "Ops! Ocorreu um Erro...";
+"Alert.error.default.action" = "Ok";

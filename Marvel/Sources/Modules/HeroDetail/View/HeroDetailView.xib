@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeroDetailView" customModule="Marvel" customModuleProvider="target">
+            <connections>
+                <outlet property="submitButton" destination="O0J-FU-lbe" id="zIE-k4-LC5"/>
+                <outlet property="tableView" destination="tD3-1B-GXs" id="8ZE-sg-SXg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="tD3-1B-GXs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mhq-Qw-uEq">
+                    <rect key="frame" x="0.0" y="606" width="375" height="61"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0J-FU-lbe">
+                            <rect key="frame" x="40" y="8" width="295" height="45"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="didTapOnSubmitButton:" destination="-1" eventType="touchUpInside" id="uwP-c1-hUX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="61" id="8Y7-6R-OlG"/>
+                        <constraint firstItem="O0J-FU-lbe" firstAttribute="leading" secondItem="Mhq-Qw-uEq" secondAttribute="leading" constant="40" id="aXf-gX-Z5Y"/>
+                        <constraint firstItem="O0J-FU-lbe" firstAttribute="top" secondItem="Mhq-Qw-uEq" secondAttribute="top" constant="8" id="gBD-0e-Jxj"/>
+                        <constraint firstAttribute="bottom" secondItem="O0J-FU-lbe" secondAttribute="bottom" constant="8" id="oVb-Fg-htO"/>
+                        <constraint firstAttribute="trailing" secondItem="O0J-FU-lbe" secondAttribute="trailing" constant="40" id="vjo-k0-f1a"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Mhq-Qw-uEq" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="4Lb-DE-ruQ"/>
+                <constraint firstItem="tD3-1B-GXs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EPb-oc-j07"/>
+                <constraint firstItem="tD3-1B-GXs" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="F55-iL-vHb"/>
+                <constraint firstItem="Mhq-Qw-uEq" firstAttribute="top" secondItem="tD3-1B-GXs" secondAttribute="bottom" constant="8" id="Nh9-U4-kjB"/>
+                <constraint firstItem="Mhq-Qw-uEq" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="VG0-MB-XZ2"/>
+                <constraint firstItem="tD3-1B-GXs" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="q0d-Mo-0PP"/>
+                <constraint firstItem="Mhq-Qw-uEq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="qW5-XQ-jeP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="53.600000000000001" y="92.203898050974516"/>
+        </view>
+    </objects>
+</document>

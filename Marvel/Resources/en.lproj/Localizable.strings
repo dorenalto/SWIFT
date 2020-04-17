@@ -1,0 +1,20 @@
+//
+//  Localizable.strings
+//  Marvel
+//
+//  Created by Dorenalto Mangueira Couto on 15/04/2020.
+//  Copyright © 2020 Dorenalto Mangueira Couto. All rights reserved.
+//
+
+"HeroesList.screen.title" = "Super Heroes";
+"HeroesList.searchbar.placeholder" = "Search by name";
+
+"HeroesDetail.section.title.comics" = "Comics";
+"HeroesDetail.section.title.events" = "Events";
+"HeroesDetail.section.title.stories" = "Stories";
+"HeroesDetail.section.title.series" = "Series";
+"HeroesDetail.section.description.noContent" = "This super hero has no";
+"HeroesDetail.submitButton.title" = "SUBMIT";
+
+"Alert.error.default.title" = "Ops! Error...";
+"Alert.error.default.action" = "Ok";

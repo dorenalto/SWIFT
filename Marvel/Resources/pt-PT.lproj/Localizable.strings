@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Marvel
+
+  Created by Bruno Henrique Costa Ramos on 11/01/19.
+  Copyright © 2019 Bruno Ramos. All rights reserved.
+*/
+
+"HeroesList.screen.title" = "Super Heroes";
+"HeroesList.searchbar.placeholder" = "Search by name";
