@@ -1,10 +1,10 @@
-/* 
-  Localizable.strings
-  Marvel
-
-  Created by Bruno Henrique Costa Ramos on 11/01/19.
-  Copyright © 2019 Bruno Ramos. All rights reserved.
-*/
+//
+//  Localizable.strings
+//  Marvel
+//
+// Created by Dorenalto Mangueira Couto on 15/04/2020.
+// Copyright © 2020 Dorenalto Mangueira Couto. All rights reserved.
+//
 
 //Heroes List
 "HeroesList.screen.title" = "Super Heróis";
